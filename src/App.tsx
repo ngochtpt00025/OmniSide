@@ -1,6 +1,6 @@
 import { useEffect } from 'react';
 import { getCurrentWindow } from "@tauri-apps/api/window";
-
+import './App.css';
 const appWindow = getCurrentWindow();
 function App() {
   useEffect(() => {
@@ -23,7 +23,7 @@ function App() {
       style={{
         width: '100%',
         height: '100%',
-        background: 'transparent',
+        background: 'green',
         display: 'flex',
         justifyContent: 'center',
         alignItems: 'center',
@@ -36,10 +36,12 @@ function App() {
     >
       <span
         style={{
-          color: 'white',
+          color: 'black',
           fontSize: '25px',
           fontWeight: 'bold',
           pointerEvents: 'none',
+          lineHeight: 1,
+          display: 'block',
         }}
       >
         D
