@@ -12,19 +12,28 @@
   "app": {
     "windows": [
       {
+        "label": "popup",
+        "title": "OmniSide",
+        "width": 60,
+        "height": 60,
+        "resizable": false,
+        "decorations": false,
+        "transparent": true,
+        "shadow": false,
+        "alwaysOnTop": true,
+        "skipTaskbar": false
+      },
+      {
         "label": "main",
         "title": "OmniSide",
-        "width": 50,
-        "height": 50,
+        "width": 500,
+        "height": 800,
         "resizable": false,
         "decorations": false,
         "transparent": false,
+        "shadow": false,
         "alwaysOnTop": true,
-        "skipTaskbar": true,
-        "center": false,
-        "x": 100,
-        "y": 100,
-        "visible": true
+        "skipTaskbar": true
       }
     ],
     "security": {
